@@ -1,0 +1,20 @@
+{
+  "name": "ts_node_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./index.ts",
+    "prod": "tsc && node ./build/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.8",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.3"
+  }
+}
